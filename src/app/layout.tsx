@@ -26,7 +26,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className={cn(inter.className, 'antialiased h-full')}>
+      <body className={cn(inter.className, 'antialiased h-full bg-grid')}>
         <Providers>
           {children}
           <ScrollToTop />
